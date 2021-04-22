@@ -165,13 +165,8 @@ public class arraylist {
                 if (asDisciplinas.size() == 0) {
                     System.out.println("No Curso");
                 } else {
-                    asDisciplinas.remove(id - 1);
-                    idCurso = 1;
-                    int j = asDisciplinas.size();
-                    for (int x = 1; x < j + 1; x++) {
-                        asdi = asDisciplinas.get(x - 1);
-                        asdi.setIdDisciplinas(idCurso++);
-                    }
+                    ascudi.remove(id - 1);
+                   
                     System.out.println("Curso com o id " + id + " foi removido");
                     for (disciplinas f : asDisciplinas) {
                         System.out.println(f.toString());
@@ -199,12 +194,6 @@ public class arraylist {
                     System.out.println("No Curso");
                 } else {
                     asinscricoes.remove(id - 1);
-                    idCurso = 1;
-                    int j = asinscricoes.size();
-                    for (int x = 1; x < j + 1; x++) {
-                        Inscricao = asinscricoes.get(x - 1);
-                        Inscricao.setIdFormando(idCurso++);
-                    }
                     System.out.println("Curso com o id " + id + " foi removido");
                     for (inscricoes f : asinscricoes) {
                         System.out.println(f.toString());
