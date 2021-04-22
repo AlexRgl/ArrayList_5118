@@ -38,7 +38,9 @@ public class arraylist {
                         eliminarFormando();
                         break;
                     case 4:
+                    int x = 1;
                         for (Formando osFormandos : osFormandos) {
+                            System.out.print(x++ + " ");
                             System.out.println(osFormandos.toString());
                         }
                         break;
@@ -59,7 +61,9 @@ public class arraylist {
                         eliminarCurso();
                         break;
                     case 4:
+                    int x = 1;
                         for (cursos osCursos : osCursos) {
+                            System.out.print(x++ + " ");
                             System.out.println(osCursos.toString());
                         }
                         break;
@@ -80,7 +84,9 @@ public class arraylist {
                         eliminarDisciplina();
                         break;
                     case 4:
+                    int x = 1;
                         for (disciplinas asDisciplinas : asDisciplinas) {
+                            System.out.print(x++ + " ");
                             System.out.println(asDisciplinas.toString());
                         }
                         break;
@@ -98,7 +104,9 @@ public class arraylist {
                         inscricaoeliminar();
                         break;
                     case 3:
+                    int x = 1;
                         for (inscricoes asinscricoes : asinscricoes) {
+                            System.out.print(x++ + " ");
                             System.out.println(asinscricoes.toString());
                         }
                         break;
@@ -115,7 +123,9 @@ public class arraylist {
                         removeDisciplina();
                         break;
                     case 3:
+                        int x = 1;
                         for (cudi ascudi : ascudi) {
+                            System.out.print(x++ + " ");
                             System.out.println(ascudi.toString());
                         }
                         break;
@@ -137,7 +147,9 @@ public class arraylist {
             System.out.println("ID do Curso:");
             int id = sc.nextInt();
             asdi.setIdCurso(id);
+            
             for (disciplinas asDisciplinas : asDisciplinas) {
+
                 System.out.println(asDisciplinas.toString());
             }
 
