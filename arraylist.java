@@ -193,7 +193,6 @@ public class arraylist {
     private static void inscricaoeliminar() {
         inscricoes Inscricao = new inscricoes();
         if (asinscricoes.size() == 0) {
-            System.out.println("Não há nada para apagar!");
         } else {
             Scanner sc = new Scanner(System.in);
             for (inscricoes asinscricoes : asinscricoes) {
